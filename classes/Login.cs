@@ -51,7 +51,7 @@ namespace Projeto_de_produtos.classes
                         marca.Listar();
                         break;
                     case 6:
-                        Console.WriteLine($"Digite o código do produto para excluir: ");
+                        Console.WriteLine($"Digite o código da marca para excluir: ");
                         int codMarca = int.Parse(Console.ReadLine());
                         marca.Deletar(codMarca);
                         break;
